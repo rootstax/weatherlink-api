@@ -1,0 +1,27 @@
+{
+  "name": "weatherlink-api",
+  "version": "1.0.0",
+  "description": "Crypto Tracker API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rootstax/weatherlink-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rootstax/weatherlink-api/issues"
+  },
+  "homepage": "https://github.com/rootstax/weatherlink-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-pino-logger": "^4.0.0",
+    "path": "^0.12.7"
+  }
+}
